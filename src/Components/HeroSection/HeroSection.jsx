@@ -12,6 +12,9 @@ import { motion } from "framer-motion";
 import BannerBg from "../../assets/banner-bg.jpg";
 import ProfileImageSrc from "../../assets/Mahfuz-Billah.png";
 import { BiLogoGmail } from "react-icons/bi";
+import { TiHtml5 } from "react-icons/ti";
+import { IoLogoCss3 } from "react-icons/io";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -234,6 +237,15 @@ export default function HeroSection() {
               position: "top-0 left-0",
               delay: 0,
             },
+
+            {
+              icon: <TbBrandNextjs />,
+
+              label: "Next.js",
+              position: "bottom-0 left-0",
+
+              delay: 0,
+            },
             {
               icon: <FaBolt />,
               label: "Fast",
@@ -243,7 +255,7 @@ export default function HeroSection() {
             {
               icon: <FaPaintBrush />,
               label: "Design",
-              position: "bottom-1/3 -left-16",
+              position: "bottom-2/4 -left-16",
               delay: 0.6,
             },
           ].map((badge, idx) => (
