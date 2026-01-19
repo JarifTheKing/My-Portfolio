@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "🎓 Grant Genius",
+    "description": "A full-stack scholarship management platform enabling students to apply, pay securely, and track applications, with powerful admin controls.",
+
+    "image": "https://res.cloudinary.com/dq6ahnk8w/image/upload/v1768844489/Screenshot_2026-01-19_234112_ugqifi.png",
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "Stripe"
+    ],
+    "demoLink": "https://grant-genius-client.vercel.app",
+    "codeLink": "https://github.com/JarifTheKing/GrantGenius"
+  },
+  {
+    "id": 2,
+    "title": "🎬 CineRealm",
+    "description": "A modern movie discovery platform with a clean UI for exploring trending films and detailed movie insights.",
+    "image": "https://res.cloudinary.com/dq6ahnk8w/image/upload/v1768844256/Screenshot_2026-01-19_233206_gr3tiz.png",
+    "techStack": ["React", "Firebase", "TailwindCSS"],
+    "demoLink": "https://cine-realm.vercel.app/",
+    "codeLink": "https://github.com/JarifTheKing/CineRealm"
+  },
+
+  {
+    "id": 3,
+    "title": "🚀 Work Orbit",
+    "description": "A modern job management platform designed to streamline tasks, productivity, and workflow efficiency.",
+    "image": "https://res.cloudinary.com/dq6ahnk8w/image/upload/v1768844720/Work_kernxw.png",
+    "techStack": ["React", "MongoDB", "TailwindCSS"],
+    "demoLink": "https://workorbit-a6882.web.app/",
+    "codeLink": "https://github.com/JarifTheKing/work-orbit-client"
+  },
+
+  {
+    "id": 4,
+    "title": "📘 Learnova",
+    "description": "An interactive learning platform built to deliver engaging content and a smooth learning experience.",
+    "image": "https://res.cloudinary.com/dq6ahnk8w/image/upload/v1768844892/Le_rtoumi.png",
+    "techStack": ["React", "TailwindCSS", "JavaScript"],
+    "demoLink": "https://learnova-sand-delta.vercel.app/",
+    "codeLink": "https://github.com/JarifTheKing/Learnova"
+  }
+]
