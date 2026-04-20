@@ -7,25 +7,35 @@ import {
   FaReact,
   FaPalette,
 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 const skillsData = [
-  { name: "HTML5", level: 95, icon: <FaHtml5 className="text-orange-500" /> },
-  { name: "CSS3", level: 90, icon: <FaCss3Alt className="text-blue-600" /> },
+  { name: "HTML5", level: 99, icon: <FaHtml5 className="text-orange-500" /> },
+  { name: "CSS3", level: 98, icon: <FaCss3Alt className="text-blue-600" /> },
   {
     name: "JavaScript",
-    level: 80,
+    level: 90,
     icon: <FaJsSquare className="text-yellow-500" />,
+  },
+  {
+    name: "TypeScript",
+    level: 75,
+    icon: <SiTypescript className="text-blue-500" />,
   },
   { name: "React", level: 85, icon: <FaReact className="text-blue-400" /> },
   {
+    name: "Next.js",
+    level: 80,
+    icon: <SiNextdotjs className="text-white" />,
+  },
+  {
     name: "TailwindCSS",
-    level: 90,
+    level: 99,
     icon: <SiTailwindcss className="text-sky-400" />,
   },
   {
     name: "UI/UX Design",
-    level: 80,
+    level: 90,
     icon: <FaPalette className="text-pink-500" />,
   },
 ];
